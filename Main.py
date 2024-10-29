@@ -7,7 +7,6 @@ app = Dash(__name__)
 styles = {"pre": {"border": "thin lightgrey solid", "overflowX": "scroll"}}
 
 data = pd.read_csv('flights.csv')
-# data = data.query('day < 15 and and arr_delay < 200')
 n_samples_per_day = 10
 data = data.groupby('day').apply(lambda x: x.sample(n=min(len(x), n_samples_per_day))).reset_index(drop=True)
 data = data.query(" arr_delay < 141")
