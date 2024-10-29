@@ -4,3 +4,9 @@ In this project, using interactive charts, airline flights are analyzed, especia
 
 For this purpose, Python language and Plotly and Dash packages have been used.
 
+### Sample parts of the project :
+
+![histogram plot](project_images/histogram_plot.png)
+![sunburst plot](project_images/sunburst_plot.png)
+![data table](project_images/table.png)
+
