@@ -4,7 +4,6 @@ import plotly.express as px
 
 app = Dash(__name__)
 
-
 styles = {"pre": {"border": "thin lightgrey solid", "overflowX": "scroll"}}
 
 data = pd.read_csv('flights.csv')
